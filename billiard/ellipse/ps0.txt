@@ -1,0 +1,9 @@
+reset
+#set terminal gif animate size 1080,1080
+#set output "ellipse.gif"
+set key off
+set xrange [-4:4]
+set yrange [-4:4]
+set size ratio -1 
+i=0
+load "ps.txt"

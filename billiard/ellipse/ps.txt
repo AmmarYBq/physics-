@@ -1,0 +1,9 @@
+plot "position.txt" every ::i::i u 1:2 w p pt 7, "position.txt" every ::0::i u 1:2 w l,\
+ "results.txt" u 1:2 w lp ls 0.1 lc 6, "results.txt" u 3:(0) w p pt 7,\
+ "results.txt" u 4:(0) w p pt 7  
+
+
+#pause 0.1
+
+i=i+50
+if (i<6000) reread

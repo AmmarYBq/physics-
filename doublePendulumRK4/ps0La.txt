@@ -1,0 +1,10 @@
+#set terminal gif animate size 480,480
+#set output "lissajou.gif"
+set xrange [-0.5:0.5]
+set yrange [-1:1]
+set xlabel "theta 1"
+set ylabel "theta 2"
+set key off
+set size square 
+i=1
+load "psLa.txt"

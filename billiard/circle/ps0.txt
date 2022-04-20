@@ -1,0 +1,8 @@
+reset
+#plot "results.txt" u 1:2 w lp,"results.txt" u 3:2 w lp, "results.txt" u 3:4 w lp,"results.txt" u 1:4 w lp
+set key off 
+set xrange [-2.5:2.5]
+set yrange [-2.5:2.5]
+set size square 
+i=0
+load "ps.txt"

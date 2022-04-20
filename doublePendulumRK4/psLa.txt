@@ -1,0 +1,19 @@
+plot "results1.txt" every ::1::i u 2:3 w l lc 6, "results1.txt" every ::i::i u 2:3 w p pt 7
+
+i=i+6
+if (i<3000) reread 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+

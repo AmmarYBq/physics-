@@ -1,0 +1,14 @@
+set title "\n \n"
+set label 1 "pi".sprintf("=%i",p) at graph 0.45,1.3
+set label 2 "MaxFreq".sprintf("=%.3f",fr) at graph 0.38,1.15
+
+plot "results.txt" every ::i::i u (p=$4):(0.4) w p ps 0.000001 ,\
+ "results.txt" every ::i::i u (fr=$5):(0.4) w p ps 0.000001,\
+ "results.txt" every ::i::i u 2:(0) w p pt 7 lc 15 ,\
+ "results.txt" every ::i::i u 3:(0) w p pt 7
+  
+#pause 0.05
+
+i=i+2
+if (i<22000) reread 
+
