@@ -1,0 +1,9 @@
+#set terminal gif animate size 720,720
+#set output "doublePendulum.gif
+set xrange [-25:25]
+set yrange [-25:25]
+set zrange [0:45]
+set key off
+set size square 
+i=1
+load "ps.txt"

@@ -1,0 +1,8 @@
+reset 
+set key off 
+set xrange [-15:11]
+set yrange [-15:11]
+set zrange [-7:11]
+set view 38,38
+i=0
+load "ps.txt"

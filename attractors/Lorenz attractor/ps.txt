@@ -1,0 +1,21 @@
+splot "results.txt" every ::i::i u 1:2:3 w p pt 7, "results.txt" every ::0::i u 1:2:3 w l ls 0.5
+#print x1,y1,x2,y2
+#pause 0.01
+
+i=i+100
+if (i<6000) reread 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+

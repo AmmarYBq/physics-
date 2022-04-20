@@ -1,0 +1,8 @@
+reset 
+set key off 
+set xrange [-13:9]
+set yrange [-13:9]
+set zrange [-13:9]
+
+i=0
+load "ps.txt"
